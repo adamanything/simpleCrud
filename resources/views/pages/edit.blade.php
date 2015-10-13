@@ -6,7 +6,7 @@
 
    {!! Form::model($article, [
     'method' => 'PATCH',
-    'action' => ['ArticleController@update', $article->user_id]
+    'action' => ['ArticleController@update', $article->id]
 ]) !!}
 
 

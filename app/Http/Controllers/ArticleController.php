@@ -41,9 +41,10 @@ class ArticleController extends Controller
     public function store(Request $request)
     {
         $article = new Article;
-        $article->user_id = 1;
         $article->title = $request->title;
         $article->body  = $request->body;
+        $article->user_id = 1;
+
         $article->save();
 
         return redirect('/article');
@@ -82,12 +83,12 @@ class ArticleController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $article = Article::find($id);
-        dd($article);
+        $article = Article::findOrFail($id);
         $article->title = $request->title;
+        $article->body  = $request->body;
+        $article->save();
 
-
-        dd($article);
+        return redirect('/article');
     }
 
     /**
@@ -98,6 +99,7 @@ class ArticleController extends Controller
      */
     public function destroy($id)
     {
-        //
+        $article = Article::findOrFail($id);
+        $article->delete();
     }
 }
