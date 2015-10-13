@@ -31,8 +31,13 @@
       <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state vertical-scroll-proportion="2.4243324">
               <caret line="97" column="40" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
+=======
+            <state vertical-scroll-proportion="0.42503864">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+>>>>>>> fixAuthOnCreateMethod
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -55,7 +60,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
               <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+<<<<<<< HEAD
               <folding />
+=======
+              <folding>
+                <marker date="1444732030000" expanded="true" signature="171:283" placeholder="..." />
+                <marker date="1444732030000" expanded="true" signature="184:281" placeholder="..." />
+                <marker date="1444732030000" expanded="true" signature="195:280" placeholder="..." />
+              </folding>
+>>>>>>> fixAuthOnCreateMethod
             </state>
           </provider>
         </entry>
@@ -586,14 +599,27 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+<<<<<<< HEAD
           <folding />
+=======
+          <folding>
+            <marker date="1444732030000" expanded="true" signature="171:283" placeholder="..." />
+            <marker date="1444732030000" expanded="true" signature="184:281" placeholder="..." />
+            <marker date="1444732030000" expanded="true" signature="195:280" placeholder="..." />
+          </folding>
+>>>>>>> fixAuthOnCreateMethod
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state vertical-scroll-proportion="2.4243324">
           <caret line="97" column="40" selection-start-line="97" selection-start-column="40" selection-end-line="97" selection-end-column="40" />
+=======
+        <state vertical-scroll-proportion="0.42503864">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+>>>>>>> fixAuthOnCreateMethod
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>
