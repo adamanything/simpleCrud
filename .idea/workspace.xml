@@ -31,8 +31,8 @@
       <file leaf-file-name="ArticleController.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticleController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.53632146">
-              <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
+            <state vertical-scroll-proportion="0.42503864">
+              <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
               <folding>
                 <element signature="e#40#68#0#PHP" expanded="true" />
               </folding>
@@ -56,9 +56,9 @@
             <state vertical-scroll-proportion="0.0">
               <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
               <folding>
-                <marker date="1444731039000" expanded="true" signature="171:283" placeholder="..." />
-                <marker date="1444731039000" expanded="true" signature="184:281" placeholder="..." />
-                <marker date="1444731039000" expanded="true" signature="195:280" placeholder="..." />
+                <marker date="1444732030000" expanded="true" signature="171:283" placeholder="..." />
+                <marker date="1444732030000" expanded="true" signature="184:281" placeholder="..." />
+                <marker date="1444732030000" expanded="true" signature="195:280" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -590,17 +590,17 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
           <folding>
-            <marker date="1444731039000" expanded="true" signature="171:283" placeholder="..." />
-            <marker date="1444731039000" expanded="true" signature="184:281" placeholder="..." />
-            <marker date="1444731039000" expanded="true" signature="195:280" placeholder="..." />
+            <marker date="1444732030000" expanded="true" signature="171:283" placeholder="..." />
+            <marker date="1444732030000" expanded="true" signature="184:281" placeholder="..." />
+            <marker date="1444732030000" expanded="true" signature="195:280" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ArticleController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53632146">
-          <caret line="96" column="23" selection-start-line="96" selection-start-column="23" selection-end-line="96" selection-end-column="23" />
+        <state vertical-scroll-proportion="0.42503864">
+          <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
             <element signature="e#40#68#0#PHP" expanded="true" />
           </folding>

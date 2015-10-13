@@ -28,7 +28,7 @@ class ArticleController extends Controller
      */
     public function create()
     {
-        $userId = 1;
+        $userId = Auth::id();
         return view('pages.create')->with(compact('userId'));
     }
 
