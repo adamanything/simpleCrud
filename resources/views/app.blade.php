@@ -19,6 +19,7 @@
 	<![endif]-->
 </head>
 <body>
+  <div class="container">
 	<nav class="navbar navbar-default">
 		<div class="container-fluid">
 			<div class="navbar-header">
@@ -28,12 +29,16 @@
 					<span class="icon-bar"></span>
 					<span class="icon-bar"></span>
 				</button>
-				<a class="navbar-brand" href="#">Laravel</a>
+				<a class="navbar-brand" href="/article">Laravell</a>
 			</div>
 
 			<div class="collapse navbar-collapse" id="navbar">
 				<ul class="nav navbar-nav">
-					<li><a href="{{ url('/') }}">Welcome</a></li>
+					<li role="presentation"><a href="/article">ARTICLES</a></li>
+					<li role="presentation"><a href="/article/create">CREATE</a></li>
+					<li role="presentation"><a href="/auth/register">REGISTER </a></li>
+					<li role="presentation"><a href="/auth/login">LOGIN</a></li>
+					<li role="presentation"><a href="/auth/logout">LOGOUT</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
@@ -62,5 +67,6 @@
 	<!-- Scripts -->
 	<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 	<script src="//cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  </div>
 </body>
 </html>
