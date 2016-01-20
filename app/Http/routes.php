@@ -15,5 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+Route::get('article/{id}/destroy', 'ArticleController@destroyConfirmation');
+
 Route::resource('article', 'ArticleController');
 

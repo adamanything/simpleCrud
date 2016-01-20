@@ -10,6 +10,13 @@ use Auth;
 
 class ArticleController extends Controller
 {
+
+
+    public function __construct()
+    {
+        $this->middleware('auth', ['except' => 'index']);
+    }
+
     /**
      * Display a listing of the resource.
      *
@@ -91,6 +98,11 @@ class ArticleController extends Controller
         return redirect('/article');
     }
 
+    public function destroyConfirmation($id){
+        $article = Article::find($id);
+        return view('pages.destroyConfirmation')->with(compact('article'));
+    }
+
     /**
      * Remove the specified resource from storage.
      *
@@ -101,5 +113,6 @@ class ArticleController extends Controller
     {
         $article = Article::findOrFail($id);
         $article->delete();
+        return view('pages.destroyConfirmation');
     }
 }
