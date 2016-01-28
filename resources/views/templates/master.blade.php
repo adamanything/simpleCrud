@@ -72,7 +72,7 @@
                 {{--</ul>--}}
             {{--</nav>--}}
         </header>
-    <h1>Master Template</h1>
+    <h1>Master Template Test</h1>
     @yield('content')
 
 
