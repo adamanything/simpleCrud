@@ -113,6 +113,6 @@ class ArticleController extends Controller
     {
         $article = Article::findOrFail($id);
         $article->delete();
-        return view('pages.destroyConfirmation');
+        return redirect('/article');
     }
 }
