@@ -34,11 +34,11 @@
 
 			<div class="collapse navbar-collapse" id="navbar">
 				<ul class="nav navbar-nav">
-					<li role="presentation"><a href="/article">ARTICLES</a></li>
-					<li role="presentation"><a href="/article/create">CREATE</a></li>
-					<li role="presentation"><a href="/auth/register">REGISTER </a></li>
-					<li role="presentation"><a href="/auth/login">LOGIN</a></li>
-					<li role="presentation"><a href="/auth/logout">LOGOUT</a></li>
+					<li role="presentation"><a href="{{ url('/article') }}">ARTICLES</a></li>
+					<li role="presentation"><a href="{{ url('/article/create') }}">CREATE</a></li>
+					<li role="presentation"><a href="{{ url('/auth/register') }}">REGISTER </a></li>
+					<li role="presentation"><a href="{{ url('/auth/login') }}">LOGIN</a></li>
+					<li role="presentation"><a href="{{ url('/auth/logout') }}">LOGOUT</a></li>
 				</ul>
 
 				<ul class="nav navbar-nav navbar-right">
